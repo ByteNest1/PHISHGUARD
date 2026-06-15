@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "PhishGuard Shield",
+  "version": "1.0.0",
+  "description": "Real-time AI phishing detection plugin.",
+  "permissions": [
+    "webNavigation",
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
